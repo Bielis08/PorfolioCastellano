@@ -1,0 +1,55 @@
+---
+import TemasItem from "./TemasItem.astro"
+
+const TEMAS = [
+    {
+        titulo: 'Gramática',
+        descripcion: 'Aprende las reglas gramaticales esenciales del español.',
+        icono: '/Gramatica.svg',
+        iconColor: 'sky-500',
+        link: '/gramatica'
+    },
+    {
+        titulo: 'Vocabulario',
+        descripcion: 'Construye tu vocabulario con nuestras listas temáticas.',
+        icono: '/Vocabulario.svg',
+        iconColor: 'yellow-400',
+        link: '/vocabulario'
+    },
+    {
+        titulo: 'Verbos',
+        descripcion: 'Domina los verbos más importantes del español.',
+        icono: '/Gramatica.svg',
+        iconColor: 'purple-600',
+        link: '/verbos'
+    },
+    {
+        titulo: 'Conversación',
+        descripcion: 'Aprende frases y expresiones útiles para la comunicación.',
+        icono: '/Vocabulario.svg',
+        iconColor: 'gray-400',
+        link: '/conversacion'
+    },
+    {
+        titulo: 'Conversación',
+        descripcion: 'Descubre la riqueza cultural de los países hispanohablantes.',
+        icono: '/Gramatica.svg',
+        iconColor: 'green-400',
+        link: '/conversacion'
+    },
+    {
+        titulo: 'Recursos',
+        descripcion: 'Encuentra herramientas y recursos adicionales para tu aprendizaje.',
+        icono: '/Vocabulario.svg',
+        iconColor: 'pink-500',
+        link: '/recursos'
+    }
+]
+---
+<section class="flex flex-wrap gap-6 justify-center mt-8">
+    {
+        TEMAS.map(tema => (
+            <TemasItem {...tema}/>
+        ))
+    }
+</section>
