@@ -2,7 +2,7 @@
 import { temas } from "../lib/temas"
 ---
 
-<header class="fixed bg-[#e6e6e6] flex justify-between items-center px-12 py-8 w-[1500px] rounded-xl shadow-lg mb-20 mx-auto top-1 left-0 right-0">
+<header class="hidden fixed bg-[#e6e6e6] xl:flex justify-between items-center px-12 py-8 max-w-[1500px] rounded-xl shadow-lg mx-auto top-1 left-0 right-0">
     <a href="/"><h1 class="text-5xl font-semibold">Apuntes de Castellano</h1></a>
     <nav class="flex gap-x-4">
         {
@@ -13,3 +13,42 @@ import { temas } from "../lib/temas"
         
     </nav>
 </header>
+<header>
+    <header class="xl:hidden fixed bg-[#e6e6e6] flex-col justify-between items-center px-6 py-2 w-full xl shadow-lg top-0 left-0 right-0">
+        <div class="flex justify-between">
+            <a href="/"><h1 class="text-3xl font-semibold">Apuntes de Castellano</h1></a>
+            <img id="menu" class="transition" src="/icons/menu.svg" alt="Menu">
+        </div>
+        <nav id="navbar" class="grid text-center h-0 overflow-hidden place-content-center gap-x-4 transition-all">
+            {
+                temas.map(tema => (
+                    <a class="hover:scale-105 font-semibold hover:underline transition hover:bg-slate-300 rounded-xl px-2 py-3" href={tema.link} >{tema.titulo}</a>
+                ))
+            }
+            
+        </nav>
+    </header>
+</header>
+<script type="module">
+    function initMenu() {
+        const menubtn = document.getElementById('menu');
+        const navbar = document.getElementById('navbar');
+        let isOpen = false;
+
+        menubtn.addEventListener('click', function () {
+            if (!isOpen) {
+                navbar.classList.remove('h-0');
+                navbar.classList.add('h-36');
+                menubtn.src = '/icons/close.svg';
+                isOpen = true;
+            } else {
+                navbar.classList.remove('h-36');
+                navbar.classList.add('h-0');
+                menubtn.src = '/icons/menu.svg';
+                isOpen = false;
+            }
+        });
+    }
+    document.addEventListener('DOMContentLoaded', initMenu);
+    document.addEventListener('astro:after-swap', initMenu);
+</script>

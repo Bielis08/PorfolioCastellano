@@ -1,8 +1,8 @@
 ---
 const {titulo, descripcion, icono, iconColor, link} = Astro.props
 ---
-<a href={link} class="grid items-center gap-2 grid-cols-4 w-[410px] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 hover:scale-105 transition">
-    <div id="icono" class="flex items-center justify-center size-16 rounded-full p-2" style={`background-color: ${iconColor}`}>
+<a href={link} class="grid items-center gap-2 text-center md:text-left grid-cols-1 place md:grid-cols-4 w-[410px] p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 hover:scale-105 transition">
+    <div id="icono" class="flex items-center justify-center size-16 rounded-full p-2 mx-auto" style={`background-color: ${iconColor}`}>
         <img src={icono} alt=`Icono de ${titulo.toLowerCase()}` class="size-14 p-1">
     </div>
     <div class="block col-span-3">
