@@ -1,9 +1,15 @@
 ---
-import Navbar from "./NavBar.astro";
-import MobileNavBar from "./MobileNavBar.astro";
+import { temas } from "../lib/temas"
 ---
 
-<section class="fixed top-1 z-10 w-screen">
-    <Navbar />
-    <MobileNavBar />
-</section>
+<header class="fixed bg-[#e6e6e6] flex justify-between items-center px-12 py-8 w-[1500px] rounded-xl shadow-lg mb-20 mx-auto top-1 left-0 right-0">
+    <h1 class="text-5xl font-semibold">Apuntes de Castellano</h1>
+    <nav class="flex gap-x-4">
+        {
+            temas.map(tema => (
+                <a class="hover:scale-105 font-semibold hover:underline transition hover:bg-slate-300 rounded-xl px-2 py-1" href={tema.link} >{tema.titulo}</a>
+            ))
+        }
+        
+    </nav>
+</header>
