@@ -1,5 +1,9 @@
 export const temas = [
     {
+        titulo: 'Inicio',
+        link: '/'
+    },
+    {
         titulo: 'Clases de Palabras',
         descripcion: 'La lengua se divide en diversos niveles que nos ayuda a ordenarla y que tienen relación entre ellos.',
         icono: '/icons/abc.svg',

@@ -6,7 +6,9 @@ import { temas } from "../lib/temas";
 <section class="flex flex-wrap gap-6 justify-center mt-8 mx-6">
     {
         temas.map(tema => (
-            <TemasItem {...tema}/>
+        tema.descripcion 
+        ? <TemasItem {...tema} />
+        : null
         ))
     }
 </section>
