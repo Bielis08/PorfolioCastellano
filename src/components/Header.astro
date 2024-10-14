@@ -38,11 +38,11 @@ import { temas } from "../lib/temas"
         menubtn.addEventListener('click', function () {
             if (!isOpen) {
                 navbar.classList.remove('h-0');
-                navbar.classList.add('h-36');
+                navbar.classList.add('h-48');
                 menubtn.src = '/icons/close.svg';
                 isOpen = true;
             } else {
-                navbar.classList.remove('h-36');
+                navbar.classList.remove('h-48');
                 navbar.classList.add('h-0');
                 menubtn.src = '/icons/menu.svg';
                 isOpen = false;
