@@ -14,7 +14,7 @@ export const temas = [
         link: '/literatura_edad_media'
     },
     {
-        titulo: 'La Celestina (Capítulo V)',
+        titulo: 'La Celestina',
         descripcion: 'La tragicomedia de Calisto y Melibea, una obra atribuida a Fernando de Rojas.',
         icono: '/icons/book.svg',
         iconColor: '#9333EA',
