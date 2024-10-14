@@ -1,7 +1,7 @@
 export const capitulos = [
     {
         capitulo: '1',
-        resumen: 'Calisto, uno de los protagonistas, entra en el jardín de Melibea joven de la qual queda enamorado tras verla por primera vez. Calisto intenta seducirla, pero ella lo rechaza. Desesperado, Calisto acude a su criado Sempronio, quien le sugiere que busquen la ayuda de una alcahueta, la Celestina. Sempronio, tiene una relación oculta con la Celestina, es su madre, entonces Sempronio y la Celestina planean beneficiarse de la riqueza de Calisto aprovechandose de su desesperación por conquistar a Melibea.',
+        resumen: 'Calisto, entra en el jardín de Melibea joven de la qual queda enamorado tras verla por primera vez. Calisto intenta seducirla, pero ella lo rechaza. Desesperado, Calisto acude a su criado Sempronio, quien le sugiere que busquen la ayuda de una alcahueta, la Celestina. Pero Sempronio y Celestina planean beneficiarse de la riqueza de Calisto aprovechandose de su desesperación por conquistar a Melibea.',
     },
     {
         capitulo: '2',
@@ -13,10 +13,10 @@ export const capitulos = [
     },
     {
         capitulo: '4',
-        resumen: 'Calisto, completamente cautivado por las palabras de Celestina, le entrega una generosa recompensa por sus esfuerzos. Mientras tanto, Sempronio observa todo con satisfacción, ya que él y Celestina tienen planes de aprovechar la situación para su propio beneficio. Pármeno, por su parte, sigue desconfiando de Celestina y se siente incómodo con la manipulación que está teniendo lugar. Sin embargo, la presión de Sempronio y las promesas de Celestina de incluirlo en las ganancias lo empiezan a hacer dudar. Así, poco a poco, Pármeno va cediendo y parece dispuesto a unirse a la conspiración.',
+        resumen: 'Celestina finalmente va a visitar a Melibea, pero antes se encuentra con Lucrecia y Alisa que la reciben. Finalmente, cunado Celestina consigue quedarse a solas con Melibea saca el tema de Calisto, pero al momento Melibea empieza a decir lo mal que le cae y que no le gusta nada. Celestina no tiene otro remedio que hehcizarla, con un hilo al que hace estirar a Melibe la cual queda enamorada de Calisto.',
     },
     {
         capitulo: '5',
-        resumen: 'Mientras tanto, Calisto sigue completamente obsesionado con Melibea, ansiando verla y convencido de que, gracias a la intervención de Celestina, su amor será correspondido. Celestina mantiene esa ilusión en Calisto, asegurándole que Melibea ya está más receptiva. Sempronio y Pármeno, ahora en connivencia con Celestina, comienzan a esperar su parte de las ganancias que obtendrán de Calisto. Celestina se aprovecha de la codicia y el deseo de todos a su alrededor para controlarlos y mantenerlos en su órbita, mientras sigue adelante con su plan de unir a Calisto y Melibea para su propio beneficio personal.',
+        resumen: 'Por último, Celestina vuelve de casa de Melibea y se encuantra a Sempronio esparandola en su casa, de camino a casa de Calisto, Celestina le cuneta como ha ido. Cunado ya están llegando Pármeno los ve y avisa a Calisto, quien espera ansioso su llegada.',
     },
 ]
