@@ -3,7 +3,7 @@ import { temas } from "../lib/temas"
 ---
 
 <header class="hidden fixed bg-[#e6e6e6] xl:flex justify-between items-center px-12 py-8 max-w-[1500px] rounded-xl shadow-lg mx-auto top-1 left-0 right-0 z-10">
-    <a href="/"><h1 class="text-5xl font-semibold">Apuntes de Castellano</h1></a>
+    <a href="/"><h1 class="text-[40px] font-semibold">Apuntes de Castellano</h1></a>
     <nav class="flex gap-x-4">
         {
             temas.map(tema => (
@@ -38,11 +38,11 @@ import { temas } from "../lib/temas"
         menubtn.addEventListener('click', function () {
             if (!isOpen) {
                 navbar.classList.remove('h-0');
-                navbar.classList.add('h-48');
+                navbar.classList.add('h-72');
                 menubtn.src = '/icons/close.svg';
                 isOpen = true;
             } else {
-                navbar.classList.remove('h-48');
+                navbar.classList.remove('h-72');
                 navbar.classList.add('h-0');
                 menubtn.src = '/icons/menu.svg';
                 isOpen = false;
