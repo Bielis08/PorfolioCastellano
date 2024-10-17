@@ -4,7 +4,11 @@ export const temas = [
         link: '/'
     },
     {
-        titulo: 'Clases de Palabras',
+        titulo: 'Lista de Conectores',
+        link: '/lista_de_conectores'
+    },
+    {
+        titulo: 'Categorías Gramaticales',
         descripcion: 'La lengua se divide en diversos niveles que nos ayuda a ordenarla y que tienen relación entre ellos.',
         icono: '/icons/abc.svg',
         iconColor: '#0EA5E9',
