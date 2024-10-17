@@ -12,7 +12,7 @@ export const temas = [
         descripcion: 'La lengua se divide en diversos niveles que nos ayuda a ordenarla y que tienen relación entre ellos.',
         icono: '/icons/abc.svg',
         iconColor: '#0EA5E9',
-        link: '/clase_de_palabras'
+        link: '/categorias_gramaticales'
     },
     {
         titulo: 'Literatura (Edad Media)',
