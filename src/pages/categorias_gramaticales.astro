@@ -3,7 +3,7 @@ import BtnInicio from "../components/BtnInicio.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
-<Layout title="Literatura de la Edad Media - Apuntes de Castellano">
+<Layout title="Categorías Gramaticales0000 - Apuntes de Castellano">
     <main class="max-w-[1400px] mx-auto px-6 mb-14 mt-28 md:mt-36 text-center">
         <BtnInicio/>
         <head>
@@ -14,6 +14,69 @@ import Layout from "../layouts/Layout.astro";
             <img class="mx-auto px-2 max-h-[400px] rounded-2xl" src="/Categorias gramaticales.webp" alt="Ilustración de monjes de la Edad Media escribiendo">
         </section>
         <section class="mb-10 lg:-mb-8 text-left">
+            <header class="ml-8 text-lg">
+                <h2 class="text-2xl font-semibold mt-10 md:mt-16 mb-2 text-pretty">Clasificación de Palabras</h2>
+                <p class="ml-4">Las palabras pueden ser <strong>variables</strong> o <strong>invariables:</strong></p>
+                <ul class="list-disc ml-12">
+                    <li><strong>Variables</strong>: Sustantivo, adjetivo, pronombre, verbo.</li>
+                    <li><strong>Invariables</strong>: Adverbio, conjunción, preposición, interjección.</li>
+                </ul>
+            </header>
+            <div class="flex flex-wrap justify-around gap-4">
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Sustantivo</h2>
+                    <p class="text-lg">Nombra personas, lugares o cosas. (SN)</p>
+                    <p class="text-lg">Ejemplo: <i>casa, perro, coche.</i></p>
+                    <h5 class="text-2xl mt-2">Tipos de nombres:</h5>
+                    <ul class="ml-8 text-lg list-disc">
+                        <li>Animado | Inanimado</li>
+                        <li>Común | Propio</li>
+                        <li>Concreto | Abstracto</li>
+                        <li>Individual | Colectivo</li>
+                    </ul>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Adjetivo</h2>
+                    <p class="text-lg">Describe al sustantivo (SAdj).</p>
+                    <p class="text-lg">Ejemplo: <i>grande, azul, rápido.</i></p>
+                    <h5 class="text-2xl mt-2">Tipos de adjetivos:</h5>
+                    <ul class="ml-8 text-lg list-disc">
+                        <li>Calificativos</li>
+                        <li>Relacionales</li>
+                        <li>Adverbiales</li>
+                    </ul>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Verbo</h2>
+                    <p class="text-lg"> Indica acción o estado (V).</p>
+                    <p class="text-lg">Ejemplo: <i>correr, ser, tener.</i></p>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Pronombre</h2>
+                    <p class="text-lg">Sustituye al sustantivo. (Pron)</p>
+                    <p class="text-lg">Ejemplo: <i>él, ella, esto, nosotros.</i></p>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Adverbio</h2>
+                    <p class="text-lg">Modifica verbo, adjetivo o adverbio. (Adv)</p>
+                    <p class="text-lg">Ejemplo: <i>rápidamente, muy, aquí.</i></p>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Preposición</h2>
+                    <p class="text-lg">Relaciona palabras en la oración. (Prep)</p>
+                    <p class="text-lg">Ejemplo: <i>en, con, por.</i></p>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Conjunción</h2>
+                    <p class="text-lg">Une palabras u oraciones. (Conj)</p>
+                    <p class="text-lg">Ejemplo: <i>y, o, pero.</i></p>
+                </article>
+                <article class="mt-10 bg-blue-100 px-8 py-6 w-96 h-auto rounded-3xl hover:scale-105 transition border-2 border-dashed border-black">
+                    <h2 class="text-3xl font-medium mb-3">Interjecciones</h2>
+                    <p class="text-lg">Expresa emociones o reacciones. (Interj)</p>
+                    <p class="text-lg">Ejemplo: <i>¡Ah!, ¡Oh!, ¡Vaya!</i></p>
+                </article>
+            </div>
         </section>
     </main>
 </Layout>
