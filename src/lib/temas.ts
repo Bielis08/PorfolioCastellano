@@ -9,7 +9,7 @@ export const temas = [
     },
     {
         titulo: 'Categorías Gramaticales',
-        descripcion: 'La lengua se divide en diversos niveles que nos ayuda a ordenarla y que tienen relación entre ellos.',
+        descripcion: 'La lengua se divide en diversos niveles que nos ayudan a ordenarla y que tienen relación entre ellos.',
         icono: '/icons/abc.svg',
         iconColor: '#0EA5E9',
         link: '/categorias_gramaticales'
