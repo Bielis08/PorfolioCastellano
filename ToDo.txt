@@ -1,2 +1,3 @@
 Una entrada por cada contenido que hemos visto en el aula donde aparezcan resúmenes, esquemas, imágenes, ejercicios...
-Jorge Manrique
+- Jorge Manrique
+- Argumentos y Adjuntos

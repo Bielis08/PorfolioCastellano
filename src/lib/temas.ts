@@ -30,13 +30,19 @@ export const temas = [
     },
     {
         titulo: 'Jorge Manrique',
-        descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre"',
+        descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre".',
         icono: '/icons/author.svg',
         iconColor: '#4ADE80',
         link: '/jorge_manrique'
-    }
+    },
+    {
+        titulo: 'Argumentos y Adjuntos',
+        descripcion: 'Gramatica de la segunda unidad, los complementos del verbo.',
+        icono: '/icons/gramatica2.svg',
+        iconColor: '#EC4899',
+        link: '/argumentos_adjuntos'
+    },
 ]
 
 // Colors:
 //     gray-400 = #9CA3AF
-//     pink-500 = #EC4899
