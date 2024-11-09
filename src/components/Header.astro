@@ -1,12 +1,12 @@
 ---
-import { temas } from "../lib/temas"
+import { navbar } from '../lib/navbar';
 ---
 
 <header class="hidden fixed bg-[#e6e6e6] xl:flex justify-between items-center px-12 py-8 max-w-[1500px] rounded-xl shadow-lg mx-auto top-1 left-0 right-0 z-10">
     <a href="/"><h1 class="text-[40px] font-semibold">Apuntes de Castellano</h1></a>
     <nav class="flex gap-x-4">
         {
-            temas.map(tema => (
+            navbar.map(tema => (
                 <a class="hover:scale-105 font-semibold hover:underline transition hover:bg-slate-300 rounded-xl px-2 py-1" href={tema.link} >{tema.titulo}</a>
             ))
         }
@@ -21,7 +21,7 @@ import { temas } from "../lib/temas"
         </div>
         <nav id="navbar" class="grid text-center h-0 overflow-hidden place-content-center gap-x-4 transition-all">
             {
-                temas.map(tema => (
+                navbar.map(tema => (
                     <a class="hover:scale-105 font-semibold hover:underline transition hover:bg-slate-300 rounded-xl px-2 py-3" href={tema.link} >{tema.titulo}</a>
                 ))
             }
