@@ -30,7 +30,7 @@ export const temas = [
     },
     {
         titulo: 'Jorge Manrique',
-        descripcion: 'La tragicomedia de Calisto y Melibea, una obra atribuida a Fernando de Rojas.',
+        descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre"',
         icono: '/icons/author.svg',
         iconColor: '#4ADE80',
         link: '/jorge_manrique'
@@ -39,5 +39,4 @@ export const temas = [
 
 // Colors:
 //     gray-400 = #9CA3AF
-//     green-400 = #4ADE80
 //     pink-500 = #EC4899
