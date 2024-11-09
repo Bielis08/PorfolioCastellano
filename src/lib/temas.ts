@@ -28,6 +28,13 @@ export const temas = [
         iconColor: '#9333EA',
         link: '/la_celestina'
     },
+    {
+        titulo: 'Jorge Manrique',
+        descripcion: 'La tragicomedia de Calisto y Melibea, una obra atribuida a Fernando de Rojas.',
+        icono: '/icons/author.svg',
+        iconColor: '#4ADE80',
+        link: '/jorge_manrique'
+    }
 ]
 
 // Colors:
