@@ -1,0 +1,26 @@
+---
+import BtnInicio from "../components/BtnInicio.astro";
+import Layout from "../layouts/Layout.astro";
+import { figurasRetoricas } from "../lib/figurasRet";
+---
+
+<Layout title="Figuras Retóricas - Apuntes de Castellano">
+    <main class="max-w-[1400px] mx-auto px-6 mb-14 mt-28 md:mt-36 text-center">
+        <BtnInicio />
+        <head>
+            <h1 class="text-4xl font-semibold mt-20 mb-2">Figuras Retóricas</h1>
+            <h2 class="text-center text-2xl font-light">Lista de las figuras retóricas</h2>
+        </head>
+        <section class="flex flex-wrap justify-center lg:justify-around gap-7 mt-20">
+            {
+                figurasRetoricas.map(figura => (
+                    <article class="bg-blue-100 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
+                        <h2 class="text-3xl text-center font-semibold">{figura.titulo}</h2>
+                        <p class="text-lg my-4">{figura.descripcion}</p>
+                        <span class="text-lg font-semibold">Ejemplo: <span class="font-medium">{figura.ejemplo}</span></span>
+                    </article>
+                ))
+            }
+        </section>
+    </main>
+</Layout>
