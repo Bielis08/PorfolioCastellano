@@ -17,6 +17,10 @@ export const capitulos = [
     },
     {
         capitulo: '5',
-        resumen: 'Por último, Celestina vuelve de casa de Melibea y se encuentra a Sempronio esperándola en su casa, de camino a casa de Calisto, Celestina le cuenta como ha ido. Cunado ya están llegando Pármeno los ve y avisa a Calisto, quien espera ansioso su llegada.',
+        resumen: 'Por último, Celestina vuelve de casa de Melibea y se encuentra a Sempronio esperándola en su casa, de camino a casa de Calisto, Celestina le cuenta como ha ido. Cuando ya están llegando Pármeno los ve y avisa a Calisto, quien espera ansioso su llegada.',
+    },
+    {
+        capitulo: '6',
+        resumen: 'Celestina regresa de la conversación con Melibea. Al llegar, Calisto le pregunta que como ha ido. Celestina exagera lo que ha pasado de su encuentro con Melibea que Calisto le dé más dinero. Le asegura que Melibea ya está bajo su influencia. También Celestina manipula a Sempronio y Pármeno, convenciéndolos de que recibirán beneficios si participan en el plan. ',
     },
 ]
