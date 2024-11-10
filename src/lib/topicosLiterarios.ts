@@ -9,7 +9,7 @@ export const topicosLiterarios = [
     },
     {
         topico: 'Aurea mediocritas',
-        descripcion: 'La felicidad está en la en una vida simple.'
+        descripcion: 'La felicidad está en una vida simple.'
     },
     {
         topico: 'Contemptus mundi',
@@ -25,7 +25,7 @@ export const topicosLiterarios = [
     },
     {
         topico: 'Omnia mors aequat',
-        descripcion: 'La muerte es iguala para todos, sin importar la riqueza.'
+        descripcion: 'La muerte es igual para todos, sin importar la riqueza.'
     },
     {
         topico: 'Vita somnium',
