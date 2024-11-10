@@ -1,7 +1,7 @@
 ---
 import BtnInicio from "../components/BtnInicio.astro";
+import TopicosLiterarios from "../components/TopicosLiterarios.astro";
 import Layout from "../layouts/Layout.astro";
-import { topicosLiterarios } from "../lib/topicosLiterarios";
 ---
 
 <Layout title="Jorge Manrique - Apuntes de Castellano">
@@ -11,18 +11,6 @@ import { topicosLiterarios } from "../lib/topicosLiterarios";
             <h1 class="text-4xl font-semibold mt-20 mb-2">Jorge Manrique</h1>
             <h2 class="text-center text-2xl font-light mb-14">Poeta del siglo XV</h2>
         </head>
-        <section>
-            <h3 class="text-start text-3xl font-medium max-w-lg text-balance">Topicos Literarios mas utilizados por Jorge Manrique</h3>
-            <section class="flex flex-wrap justify-center lg:justify-around gap-7 mt-20">
-                {
-                    topicosLiterarios.map(topico => (
-                        <article class="bg-emerald-50 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
-                            <h2 class="text-3xl text-center font-semibold">{topico.topico}</h2>
-                            <p class="text-lg my-4 text-balance">{topico.descripcion}</p>
-                        </article>
-                    ))
-                }
-            </section>
-            
+        <TopicosLiterarios />
     </main>
 </Layout>

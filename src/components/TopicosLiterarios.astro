@@ -1,0 +1,17 @@
+---
+import { topicosLiterarios } from "../lib/topicosLiterarios";
+---
+
+<section>
+    <h3 class="text-start text-3xl font-medium max-w-lg text-balance">Topicos Literarios mas utilizados por Jorge Manrique</h3>
+        <section class="flex flex-wrap justify-center lg:justify-around gap-7 mt-20">
+            {
+                topicosLiterarios.map(topico => (
+                    <article class="bg-emerald-50 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
+                        <h2 class="text-3xl text-center font-semibold">{topico.topico}</h2>
+                        <p class="text-lg my-4 text-balance">{topico.descripcion}</p>
+                    </article>
+                ))
+            }
+        </section>
+</section>
