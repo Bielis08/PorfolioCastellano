@@ -1,4 +1,5 @@
 ---
+import Biografia from "../components/Biografia.astro";
 import BtnInicio from "../components/BtnInicio.astro";
 import TopicosLiterarios from "../components/TopicosLiterarios.astro";
 import Layout from "../layouts/Layout.astro";
@@ -11,6 +12,8 @@ import Layout from "../layouts/Layout.astro";
             <h1 class="text-4xl font-semibold mt-20 mb-2">Jorge Manrique</h1>
             <h2 class="text-center text-2xl font-light mb-14">Poeta del siglo XV</h2>
         </head>
+        <img class="my-10 mx-auto rounded-2xl h-[400px]" src="jorge_manrique.jpg" alt="Retrato de Jorge Manrique">
+        <Biografia />
         <TopicosLiterarios />
     </main>
 </Layout>
