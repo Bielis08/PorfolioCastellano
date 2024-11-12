@@ -4,6 +4,10 @@ export const navbar = [
         link: '/'
     },
     {
+        titulo: 'Temas',
+        link: '/#temas'
+    },
+    {
         titulo: 'Lista de Conectores',
         link: '/lista_de_conectores'
     },
