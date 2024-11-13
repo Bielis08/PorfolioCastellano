@@ -23,4 +23,52 @@ export const capitulos = [
         capitulo: '6',
         resumen: 'Celestina regresa de la conversación con Melibea. Al llegar, Calisto le pregunta que como ha ido. Celestina exagera lo que ha pasado de su encuentro con Melibea que Calisto le dé más dinero. Le asegura que Melibea ya está bajo su influencia. También Celestina manipula a Sempronio y Pármeno, convenciéndolos de que recibirán beneficios si participan en el plan. ',
     },
+    {
+        capitulo: '7',
+        resumen: 'Calisto está encantado con las palabras de Celestina y le da aún más dinero. Celestina exagera las palabras de Melibea para consegir más dinero. Sempronio y Pármeno comienzan a confiar en el plan de aprovecharse de Calisto.',
+    },
+    {
+        capitulo: '8',
+        resumen: 'Celestina visita otra vez a Melibea. Consige que Melibea reconozca sus sentimientos hacia Calisto.',
+    },
+    {
+        capitulo: '9',
+        resumen: 'Melibea empieza a desear ver a Calisto. Celestina aprovecha esta ocasión y promete decirselo a Calisto lo antes posible.',
+    },
+    {
+        capitulo: '10',
+        resumen: 'Celestina informa a Calisto sobre Melibea y le promete que muy pronto podrá verla. Calisto, vuelve a darle más dinero a Celestina. Sempronio y Pármeno, esperan sus recompensas que no llegan.',
+    },
+    {
+        capitulo: '11',
+        resumen: 'Calisto finalmente logra encontrarse con Melibea gracias a los arreglos de Celestina. En este encuentro, Melibea confiesa que ha empezado a sentir algo por él. Calisto se muestra feliz y agradecido con Celestina, quien observa desde las sombras, satisfecha con su obra.',
+    },
+    {
+        capitulo: '12',
+        resumen: 'Sempronio y Pármeno deciden exigir su parte del dinero, pero Celestina se niegan y entonces se enfrentan a ella, la acaban asesinando',
+    },
+    {
+        capitulo: '13',
+        resumen: 'Sempronio y Pármeno intentan escapar del asesinato pero los capturan y los ejecutan en la plaza del pueblo. A calisto le entristece la perdida de los tres.',
+    },
+    {
+        capitulo: '14',
+        resumen: 'Melibea y Calisto comienzan a verse en secreto. Los dos disfrutan de encuentros sus escondidas.',
+    },
+    {
+        capitulo: '15',
+        resumen: 'Aurea y Elisa están muy enfadadas con Calisto así que llaman a Centurio, quien les debe muchos favores y le dicen que tiene que ir a por Calisto',
+    },
+    {
+        capitulo: '16',
+        resumen: 'Centurio no consige entrar en la casa de Melibea, donde se encuentra Calisto, pero si consige armar revuelo y Calisto decide ir a ver que pasa. Pero desgraciadamente se cae, se golpea la cabeza y muere.',
+    },
+    {
+        capitulo: '17',
+        resumen: 'Melibea, muy triste por la muerte de su amado no puede más con su vida y se suicida en lo alto de la torre.',
+    },
+    {
+        capitulo: '18',
+        resumen: 'El padre de Melibea, quien estaba cuando se suicido Melibea, esta muy triste. La historia termina con un mensaje sobre las consecuencias del amor desmedido y la codicia, al final acaban todos los protagonistas muertos.',
+    },
 ]
