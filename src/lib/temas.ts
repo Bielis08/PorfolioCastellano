@@ -1,13 +1,5 @@
 export const temas = [
     {
-        titulo: 'Inicio',
-        link: '/'
-    },
-    {
-        titulo: 'Lista de Conectores',
-        link: '/lista_de_conectores'
-    },
-    {
         titulo: 'Categorías Gramaticales',
         descripcion: 'La lengua se divide en diversos niveles que nos ayudan a ordenarla y que tienen relación entre ellos.',
         icono: '/icons/abc.svg',
@@ -42,7 +34,5 @@ export const temas = [
         iconColor: '#EC4899',
         link: '/argumentos_adjuntos'
     },
-]
 
-// Colors:
-//     gray-400 = #9CA3AF
+]
