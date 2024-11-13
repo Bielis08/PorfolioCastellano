@@ -25,15 +25,15 @@ export const capitulos = [
     },
     {
         capitulo: '7',
-        resumen: 'Calisto está encantado con las palabras de Celestina y le da aún más dinero. Celestina exagera las palabras de Melibea para consegir más dinero. Sempronio y Pármeno comienzan a confiar en el plan de aprovecharse de Calisto.',
+        resumen: 'Calisto está encantado con las palabras de Celestina y le da aún más dinero. Celestina exagera las palabras de Melibea para conseguir más dinero. Sempronio y Pármeno comienzan a confiar en el plan de aprovecharse de Calisto.',
     },
     {
         capitulo: '8',
-        resumen: 'Celestina visita otra vez a Melibea. Consige que Melibea reconozca sus sentimientos hacia Calisto.',
+        resumen: 'Celestina visita otra vez a Melibea. Consigue que Melibea reconozca sus sentimientos hacia Calisto.',
     },
     {
         capitulo: '9',
-        resumen: 'Melibea empieza a desear ver a Calisto. Celestina aprovecha esta ocasión y promete decirselo a Calisto lo antes posible.',
+        resumen: 'Melibea empieza a desear ver a Calisto. Celestina aprovecha esta ocasión y promete decírselo a Calisto lo antes posible.',
     },
     {
         capitulo: '10',
@@ -49,7 +49,7 @@ export const capitulos = [
     },
     {
         capitulo: '13',
-        resumen: 'Sempronio y Pármeno intentan escapar del asesinato pero los capturan y los ejecutan en la plaza del pueblo. A calisto le entristece la perdida de los tres.',
+        resumen: 'Sempronio y Pármeno intentan escapar del asesinato, pero los capturan y los ejecutan en la plaza del pueblo. A calisto le entristece la perdida de los tres.',
     },
     {
         capitulo: '14',
@@ -61,7 +61,7 @@ export const capitulos = [
     },
     {
         capitulo: '16',
-        resumen: 'Centurio no consige entrar en la casa de Melibea, donde se encuentra Calisto, pero si consige armar revuelo y Calisto decide ir a ver que pasa. Pero desgraciadamente se cae, se golpea la cabeza y muere.',
+        resumen: 'Centurio no consigue entrar en la casa de Melibea, donde se encuentra Calisto, pero si consigue armar revuelo y Calisto decide ir a ver que pasa. Pero desgraciadamente se cae, se golpea la cabeza y muere.',
     },
     {
         capitulo: '17',
@@ -69,6 +69,6 @@ export const capitulos = [
     },
     {
         capitulo: '18',
-        resumen: 'El padre de Melibea, quien estaba cuando se suicido Melibea, esta muy triste. La historia termina con un mensaje sobre las consecuencias del amor desmedido y la codicia, al final acaban todos los protagonistas muertos.',
+        resumen: 'El padre de Melibea, quien estaba cuando se suicidó Melibea, está muy triste. La historia termina con un mensaje sobre las consecuencias del amor desmedido y la codicia, al final acaban todos los protagonistas muertos.',
     },
 ]
