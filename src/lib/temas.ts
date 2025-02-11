@@ -13,13 +13,13 @@ export const temas = [
         iconColor: '#FACC15',
         link: '/literatura_edad_media'
     },
-    {
-        titulo: 'La Celestina',
-        descripcion: 'La tragicomedia de Calisto y Melibea, una obra atribuida a Fernando de Rojas.',
-        icono: '/icons/book.svg',
-        iconColor: '#9333EA',
-        link: '/la_celestina'
-    },
+    // {
+    //     titulo: 'Lecturas Trimestrales',
+    //     descripcion: 'Lecturas de los 3 trimestres de Castellano: La Celestina, El Lazarillo de Tormes y Rimas y Leyendas.',
+    //     icono: '/icons/book.svg',
+    //     iconColor: '#9333EA',
+    //     link: '/lecturas_trimestrales'
+    // },
     {
         titulo: 'Jorge Manrique',
         descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre".',
@@ -33,6 +33,20 @@ export const temas = [
         icono: '/icons/gramatica2.svg',
         iconColor: '#EC4899',
         link: '/argumentos_adjuntos'
+    },
+    {
+        titulo: 'Literatura Renacimiento',
+        descripcion: 'La literatura del Renacimiento: Garcilaso de la Vega, Fray Luis de León y San Juan de la Cruz.',
+        icono: '/icons/renacimiento.svg',
+        iconColor: '#D95700',
+        link: '/renacimiento'
+    },
+    {
+        titulo: 'Perífrasis Verbales y Locuciones',
+        descripcion: 'Gramatica de la tercera unidad, las perífrasis verbales y las locuciones verbales.',
+        icono: '/icons/gramatica2.svg',
+        iconColor: '#FF1F17',
+        link: '/perifrasis_y_locuciones'
     },
 
 ]

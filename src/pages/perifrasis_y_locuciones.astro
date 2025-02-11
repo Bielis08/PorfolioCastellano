@@ -1,0 +1,33 @@
+---
+import BtnInicio from "../components/BtnInicio.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Perífrasis Verbales y Locuciones - Apuntes de Castellano">
+    <main class="max-w-[1400px] mx-auto px-6 mb-14 mt-28 md:mt-36 text-center">
+        <BtnInicio/>
+        <head>
+            <h1 class="text-4xl font-semibold mt-20 mb-2">Perífrasis Verbales y Locuciones</h1>
+            <h2 class="text-center text-2xl font-light mb-14">Gramática</h2>
+        </head>
+        <section class="text-start">
+            <h3 class="text-start text-3xl font-medium max-w-lg text-balance">Perífrasis Verbales</h3>
+            <list class="mx-4 sm:mx-8 mt-4 list-decimal">
+                <li>Solo hay una acción</li>
+                <li>El verbo auxiliar pirde su significado</li>
+                <li>No se puede sustituir el verbo en forma no personal por un sintagma nominal ni una subordinada</li>
+                <li>No se puede sustituir el verbo principal por un pronombre</li>
+            </list>
+            <img class="mx-auto" src="Perifrasis verbales mapa conceptual.png" alt="Mapa Conceptual de perífrasis verbales">
+        </section>
+        <section class="text-start">
+            <h3 class="text-start text-3xl font-medium max-w-lg text-balance">Locuciones </h3>
+            <div class="mx-4 sm:mx-8 mt-4">
+                <p><b>Argumento:</b> Aportan información esencial, <u class="font-medium">no</u> pueden ser eliminados</p>
+                <p><b>Predicado:</b> Expresa la acción o el estado del sujeto, <u class="font-medium">no</u> puede ser eliminado</p>
+                <p><b>Adjuntos:</b> Aportan información adicional, pueden ser eliminados</p>
+            </div>
+            <img class="mx-auto" src="Locuciones mapa conceptual.png" alt="Mapa Conceptual de locuciones">
+        </section>
+    </main>
+</Layout>

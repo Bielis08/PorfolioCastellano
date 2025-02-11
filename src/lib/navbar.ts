@@ -16,7 +16,7 @@ export const navbar = [
         link: '/figuras_retoricas'
     },
     {
-        titulo: 'La Celestina',
-        link: '/la_celestina'
+        titulo: 'Lecturas',
+        link: '/lecturas_trimestrales'
     }
 ]
