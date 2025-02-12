@@ -1,12 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro";
-import BtnInicio from "../components/BtnInicio.astro"
 import { capitulos } from "../lib/capitulos";
 ---
 
 <Layout title="La Celestina - Apuntes de Castellano">
     <main class="max-w-[1400px] mx-auto px-6 mb-14 mt-28 md:mt-36 text-center">
-        <BtnInicio/>
+        <a href="/lecturas_trimestrales" class="flex items-center justify-around text-gray-900 bg-white border border-gray-300 hover:bg-gray-100 font-medium rounded-full text-xs md:text-sm px-2 py-1 me-2 mb-2 w-36 md:w-44 transition hover:scale-105">
+            <img class="size-6 md:size-8" src="/icons/volver.svg" alt="Icono para volver al inicio de la página">
+            <span>Volver a lecturas</span>
+        </a>
         <head>
             <h1 class="text-4xl font-semibold mt-20 mb-2">La Celestina</h1>
             <h2 class="text-2xl font-light mb-14">Fernando de Rojas</h2>
@@ -23,7 +25,7 @@ import { capitulos } from "../lib/capitulos";
         </section>
         <section class="text-left mt-10 md:mt-16">
             <h2 class="text-3xl font-medium">Resumen por capítulos</h2>
-            <section class="grid place-content-center mt-16">
+            <section class="grid place-content-center mt-16 text-justify ">
                 {
                     capitulos.map(capitulo =>(
                         <article class="bg-emerald-50 border-2 max-w-[600px] hover:scale-105 transition border-black rounded-xl my-4 mx-2 md:mx-12 py-4 px-3 md:px-6">
