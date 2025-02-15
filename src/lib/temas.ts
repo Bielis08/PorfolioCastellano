@@ -13,13 +13,6 @@ export const temas = [
         iconColor: '#FACC15',
         link: '/literatura_edad_media'
     },
-    // {
-    //     titulo: 'Lecturas Trimestrales',
-    //     descripcion: 'Lecturas de los 3 trimestres de Castellano: La Celestina, El Lazarillo de Tormes y Rimas y Leyendas.',
-    //     icono: '/icons/book.svg',
-    //     iconColor: '#9333EA',
-    //     link: '/lecturas_trimestrales'
-    // },
     {
         titulo: 'Jorge Manrique',
         descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre".',
@@ -48,5 +41,11 @@ export const temas = [
         iconColor: '#FF1F17',
         link: '/perifrasis_y_locuciones'
     },
-
+    {
+        titulo: 'La Composición de las Palabras',
+        descripcion: 'La composición de las palabras: prefijos, sufijos, raíces, cultas patrimoniales...',
+        icono: '/icons/tipografia.svg',
+        iconColor: '#681CFF',
+        link: '/composicion_de_palabras'
+    },
 ]
