@@ -7,7 +7,7 @@ import { navbar } from '../lib/navbar';
     <nav class="flex gap-x-4">
         {
             navbar.map(tema => (
-                <a class="hover:scale-105 xl:text-lg font-semibold hover:underline transition border-2 border-transparent hover:border-emerald-300 hover:bg-emerald-200 rounded-xl px-2 py-1" href={tema.link} >{tema.titulo}</a>
+                <a class="hover:scale-105 xl:text-lg font-semibold transition border-2 border-transparent hover:border-emerald-300 hover:bg-emerald-200 rounded-xl px-2 py-1" href={tema.link} >{tema.titulo}</a>
             ))
         }
         
@@ -22,7 +22,7 @@ import { navbar } from '../lib/navbar';
         <nav id="navbar" class="grid text-center h-0 overflow-hidden place-content-center gap-x-4 transition-all">
             {
                 navbar.map(tema => (
-                    <a class="hover:scale-105 font-semibold hover:underline transition hover:bg-emerald-200 rounded-xl px-2 py-3" href={tema.link} >{tema.titulo}</a>
+                    <a class="hover:scale-105 font-semibold transition hover:bg-emerald-200 rounded-xl px-2 py-3" href={tema.link} >{tema.titulo}</a>
                 ))
             }
             
