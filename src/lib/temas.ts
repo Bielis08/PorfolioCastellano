@@ -36,14 +36,14 @@ export const temas = [
     },
     {
         titulo: 'Perífrasis Verbales y Locuciones',
-        descripcion: 'Gramatica de la tercera unidad, las perífrasis verbales y las locuciones verbales.',
+        descripcion: 'Gramática de la tercera unidad, las perífrasis verbales y las locuciones verbales.',
         icono: '/icons/gramatica2.svg',
         iconColor: '#FF1F17',
         link: '/perifrasis_y_locuciones'
     },
     {
         titulo: 'La Composición de las Palabras',
-        descripcion: 'La composición de las palabras: prefijos, sufijos, raíces, cultas patrimoniales...',
+        descripcion: 'La composición de las palabras: prefijos, sufijos, raíces, cultas, patrimoniales...',
         icono: '/icons/tipografia.svg',
         iconColor: '#681CFF',
         link: '/composicion_de_palabras'
