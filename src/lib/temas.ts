@@ -48,4 +48,11 @@ export const temas = [
         iconColor: '#681CFF',
         link: '/composicion_de_palabras'
     },
+    {
+        titulo: 'Literatura Barroco',
+        descripcion: 'Literatura del Barroco: Luis de Góngora, Francisco de Quevedo y Lope de Vega.',
+        icono: '/icons/barroco.svg',
+        iconColor: '#991B1B',
+        link: '/literatura_barroco'
+    },
 ]
