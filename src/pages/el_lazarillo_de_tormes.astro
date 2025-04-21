@@ -1,4 +1,5 @@
 ---
+import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -34,18 +35,16 @@ import Layout from "../layouts/Layout.astro";
             </div>
         </section>
         <section class="text-justify mt-16 flex gap-16 justify-center">
-            <article class="bg-emerald-50 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
-                <h2 class="text-2xl text-center font-semibold">Resumen de la teoría</h2>
-                <ul class="text-left list-disc pl-10 mt-4 text-lg">
+            <Card title="Resumen de la teoría">
+                <ul class="list-disc">
                     <li>Género: Novela picaresca</li>
                     <li>Estructura: Dividida en tratados</li>
                     <li>Narrador: Primera persona</li>
                     <li>Temas principales: Religión, honra e individualismo</li>
                 </ul>
-            </article>
-            <article class="bg-emerald-50 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
-                <h2 class="text-2xl text-center font-semibold">Personajes principales</h2>
-                <ul class="text-left list-disc pl-10 mt-4 text-lg">
+            </Card>
+            <Card title="Personajes principales">
+                <ul class="list-disc">
                     <li>Lázaro de Tormes</li>
                     <li>El ciego (Primer amo)</li>
                     <li>El clérigo (Segundo amo)</li>
@@ -55,7 +54,7 @@ import Layout from "../layouts/Layout.astro";
                     <li>El capellán (Sexto amo)</li>
                     <li>El alguacil (Séptimo amo)</li>
                 </ul>
-            </article>
+            </Card>
         </section>
     </main>
 </Layout>

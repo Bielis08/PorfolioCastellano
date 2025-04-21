@@ -1,0 +1,57 @@
+---
+import Card from "../components/Card.astro";
+---
+
+<section>
+    <h2 class="text-3xl font-semibold text-left ml-2 lg:ml-20 mt-10 md:mt-16 underline">Procesos de Formación de Palabras</h2>
+    <section class="text-justify">
+        <p class="mx-8 mt-10 sm:mx-12 lg:mx-32 max-w-[800px]">Los procesos de formación de palabras son mecanismos lingüísticos como la derivación, composición y parasíntesis, que permiten crear nuevas palabras a partir de otras, enriqueciendo el idioma.</p>
+    </section>
+    <section class="text-left">
+        <h3 class="text-left text-2xl font-semibold ml-2 lg:ml-28 mt-10 md:mt-12 mb-6">Tipos de Procesos</h3>
+        <div class="flex flex-wrap gap-16 justify-center">
+            <Card title="Derivación" info="Palabras nuevas añadiendo afijos derivativos.">
+                <ul class="list-disc">
+                    <li><b>Planta</b> ➡️ <i>plantar, plantación, plantador...</i></li>
+                    <li><b>Casa</b> ➡️ <i>casero, casita, casona...</i></li>
+                    <li><b>Flor</b> ➡️ <i>florecer, floristería, florista...</i></li>
+                </ul>
+            </Card>
+            <Card title="Composición" info="Son palabras donde encontramos varias raíces.">
+                <ul class="list-disc">
+                    <li><b>Girasol</b></li>
+                    <li><b>Portafolios</b></li>
+                    <li><b>Aeropuerto</b></li>
+                </ul>
+            </Card>
+            <Card title="Parasíntesis" info="Son palabras nuevas añadiendo simultáneamente algo delante y detrás de una raíz.">
+                <ul class="list-disc">
+                    <li><b>Aclarar</b></li>
+                    <li><b>Desatanudos</b></li>
+                    <li><b>Endulzar</b></li>
+                </ul>
+            </Card>
+            <Card title="Siglas" info="Palabras formadas por letras iniciales.">
+                <ul class="list-disc">
+                    <li><b>AVE</b> ➡️ <i>Alta Velocidad Española</i></li>
+                    <li><b>ONG</b> ➡️ <i>Organización No Gubernamental</i></li>
+                    <li><b>OMS</b> ➡️ <i>Organización Mundial de la Salud</i></li>
+                </ul>
+            </Card>
+            <Card title="Acrónimos" info="Son siglas que se pueden leer tal y como se escriben. También son unidades léxicas que se han formado mediante la unión de distintos segmentos de varias palabras.">
+                <ul class="list-disc">
+                    <li><b>Radar</b> ➡️ <i>Radio Detection and Ranging</i></li>
+                    <li><b>Láser</b> ➡️ <i>Light Amplification by Stimulated Emission of Radiation</i></li>
+                    <li><b>Mercosur</b> ➡️ <i>Mercado Común del Sur</i></li>
+                </ul>
+            </Card>
+            <Card title="Acortamientos" info="Son reducciones de palabras que conservan su significado.">
+                <ul class="list-disc">
+                    <li><b>Tele</b> ➡️ <i>Televisión</i></li>
+                    <li><b>Cine</b> ➡️ <i>Cinematógrafo</i></li>
+                    <li><b>Guille</b> ➡️ <i>Guillermo</i></li>
+                </ul>
+            </Card>
+        </div>
+    </section>
+</section>
