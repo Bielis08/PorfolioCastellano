@@ -55,4 +55,11 @@ export const temas = [
         iconColor: '#991B1B',
         link: '/literatura_barroco'
     },
+    {
+        titulo: 'El léxico y su semántica',
+        descripcion: 'El léxico y su semántica: el significado de las palabras, los campos semánticos y los campos léxicos.',
+        icono: '/icons/semantica.svg',
+        iconColor: '#FBBF24',
+        link: '/el_lexico_y_su_semantica'
+    },
 ]
