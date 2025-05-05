@@ -1,10 +1,16 @@
 ---
-const {titulo, descripcion, icono, iconColor, link} = Astro.props
+const {titulo, descripcion, icono, iconColor, link, tema} = Astro.props
 ---
 <a href={link} class="grid items-center gap-2 text-center md:text-left grid-cols-1 place md:grid-cols-4 w-[410px] p-6 bg-white border-2 border-emerald-100 hover:border-emerald-300 rounded-lg shadow hover:bg-gray-100 hover:scale-105 transition">
-    <div id="icono" class="flex items-center justify-center size-16 rounded-full p-2 mx-auto" style={`background-color: ${iconColor}`}>
-        <img src={icono} alt=`Icono de ${titulo.toLowerCase()}` class="size-14 p-1">
+    <div class="flex flex-col items-center justify-center">
+        <div id="icono" class="flex flex-col items-center justify-center size-16 rounded-full p-2 mx-auto mb-4" style={`background-color: ${iconColor}`}>
+            <img src={icono} alt=`Icono de ${titulo.toLowerCase()}` class="size-14 p-1">
+        </div>
+        <div class="flex flex-col justify-center items-center">
+            <span class="opacity-70">Tema: </span><span class="font-bold text-xl">{tema}</span>
+        </div>
     </div>
+    
     <div class="block col-span-3">
         <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900">{titulo}</h5>
         <p class="font-normal text-gray-700">{descripcion}</p>
