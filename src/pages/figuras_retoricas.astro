@@ -2,6 +2,7 @@
 import BtnInicio from "../components/BtnInicio.astro";
 import Layout from "../layouts/Layout.astro";
 import { figurasRetoricas } from "../lib/figurasRet";
+figurasRetoricas.sort((a, b) => a.titulo.localeCompare(b.titulo));
 ---
 
 <Layout title="Figuras Retóricas - Apuntes de Castellano">
@@ -15,7 +16,22 @@ import { figurasRetoricas } from "../lib/figurasRet";
             {
                 figurasRetoricas.map(figura => (
                     <article class="bg-emerald-50 w-80 lg:w-96 py-6 px-4 rounded-3xl border-dashed border-black border-2 hover:scale-105 transition">
-                        <h2 class="text-3xl text-center font-semibold">{figura.titulo}</h2>
+                        <div class="flex items-center justify-between">
+                            <h2 class="text-3xl text-left font-semibold">{figura.titulo}</h2>
+                            <div class="w-36">
+                                {figura.trimestre2 ? (
+                                    <span>
+                                        <span class="opacity-50">Trimestre: </span>
+                                        <span class="font-bold text-primary">{figura.trimestre}</span> y <span class="font-bold text-primary">{figura.trimestre2}</span>
+                                    </span>
+                                ) : (
+                                    <span>
+                                        <span class="opacity-50">Trimestre: </span>
+                                        <span class="font-bold text-primary">{figura.trimestre}</span>
+                                    </span>
+                                )}
+                            </div>
+                        </div>
                         <p class="text-lg my-4">{figura.descripcion}</p>
                         <span class="text-lg font-semibold">Ejemplo: <span class="font-medium">{figura.ejemplo}</span></span>
                     </article>

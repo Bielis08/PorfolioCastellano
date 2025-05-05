@@ -2,96 +2,205 @@ export const figurasRetoricas = [
     {
         titulo: 'Aliteración',
         descripcion: 'Repetición de uno o varios sonidos, sobre todo consonánticos, con una finalidad expresiva.',
-        ejemplo: 'Con el ala leve del leve abanico'
+        ejemplo: 'Con el ala leve del leve abanico',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Onomatopeya',
         descripcion: 'Aliteración que reproduce un sonido de la naturaleza.',
-        ejemplo: 'Un no sé qué que quedan balbuciendo'
+        ejemplo: 'Un no sé qué que quedan balbuciendo',
+        trimestre: '1',
     },
     {
         titulo: 'Paranomasia',
         descripcion: 'Empleo de vocablos de significados diferentes, pero de formas parecidas.',
-        ejemplo: 'Vendado que me has vendido'
+        ejemplo: 'Vendado que me has vendido',
+        trimestre: '1',
     },
     {
         titulo: 'Epíteto',
         descripcion: 'Adjetivo calificativo que acompaña a un sustantivo, destacando una cualidad con la cual lo asociamos permanentemente.',
-        ejemplo: 'Blanca nieve'
+        ejemplo: 'Blanca nieve',
+        trimestre: '1',
     },
     {
         titulo: 'Anáfora',
         descripcion: 'Repetición de una o más palabras al principio de varios versos o grupos sintácticos.',
-        ejemplo: '¿Para quién edifiqué torres? / ¿Para quién adquirí honras? / ¿Para quién planté árboles?'
+        ejemplo: '¿Para quién edifiqué torres? / ¿Para quién adquirí honras? / ¿Para quién planté árboles?',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Anadiplosis',
         descripcion: 'Repetición del final de un verso al principio del siguiente.',
-        ejemplo: 'Pasar haciendo caminos, / caminos sobre la mar'
+        ejemplo: 'Pasar haciendo caminos, / caminos sobre la mar',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Polisíndeton',
         descripcion: 'Empleo de más conjunciones de las necesarias, dotando a la frase de mayor solemnidad y lentitud.',
-        ejemplo: 'Y llegué, y vi de lo que se trataba, y me marché sin decir nada'
+        ejemplo: 'Y llegué, y vi de lo que se trataba, y me marché sin decir nada',
+        trimestre: '1',
     },
     {
         titulo: 'Perífrasis',
         descripcion: 'Expresar con varias palabras lo que se puede decir con un discurso más reducido.',
-        ejemplo: 'Iremos a la ciudad de los cármenes (=Granada)'
+        ejemplo: 'Iremos a la ciudad de los cármenes (=Granada)',
+        trimestre: '1',
     },
     {
         titulo: 'Elipsis',
         descripcion: 'Supresión de algún término sin que se altere la comprensión del texto.',
-        ejemplo: ' Por una mirada, un mundo; / por una sonrisa, un cielo...'
+        ejemplo: ' Por una mirada, un mundo; / por una sonrisa, un cielo...',
+        trimestre: '1',
     },
     {
         titulo: 'Asíndeton',
         descripcion: 'Supresión o ausencia total de conjunciones, produciendo rapidez y movimiento acelerado.',
-        ejemplo: 'Rendí, rompí, derribé / rajé, deshice, prendí...'
+        ejemplo: 'Rendí, rompí, derribé / rajé, deshice, prendí...',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Hipérbaton',
         descripcion: 'Alteración del orden lógico de la oración.',
-        ejemplo: 'Caído se le ha un clavel / hoy a la Aurora del seno'
+        ejemplo: 'Caído se le ha un clavel / hoy a la Aurora del seno',
+        trimestre: '1',
     },
     {
         titulo: 'Paralelismo',
         descripcion: 'Repetición de construcciones similares en dos o más versos o grupossintácticos.',
-        ejemplo: 'La tierra más verde de huertos, / la tierra más rubia de mies...'
+        ejemplo: 'La tierra más verde de huertos, / la tierra más rubia de mies...',
+        trimestre: '1',
     },
     {
         titulo: 'Apóstrofe',
         descripcion: 'Interpelación exclamativa a un ser que no es el destinatario del discurso',
-        ejemplo: 'Para y óyeme ¡oh Sol!, yo te saludo'
+        ejemplo: 'Para y óyeme ¡oh Sol!, yo te saludo',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Interrogación Retórica',
         descripcion: 'Pregunta de la que no se espera respuesta',
-        ejemplo: 'Mi juventud... ¿qué juventud la mía?'
+        ejemplo: 'Mi juventud... ¿qué juventud la mía?',
+        trimestre: '1',
     },
     {
         titulo: 'Símil o Comparación',
         descripcion: 'Comparación de dos términos, uno real y otro imaginario, que poseen semejantes cualidades.',
-        ejemplo: 'Busco el descanso, como busca / el mar el agua del reguero'
+        ejemplo: 'Busco el descanso, como busca / el mar el agua del reguero',
+        trimestre: '1',
     },
     {
         titulo: 'Metáfora',
         descripcion: 'Identificación de dos términos, uno real y otro imaginario, que poseen semejantes cualidades.',
-        ejemplo: 'Las casa son ojos'
+        ejemplo: 'Las casa son ojos',
+        trimestre: '1',
     },
     {
         titulo: 'Antítesis o Contraste',
         descripcion: 'Contraposición de dostérminos o ideas contrarios',
-        ejemplo: 'Es hielo abrasador, es fuego helado'
+        ejemplo: 'Es hielo abrasador, es fuego helado',
+        trimestre: '1',
+        trimestre2: '3',
     },
     {
         titulo: 'Hipérbole',
         descripcion: 'Exageración o desproporción de lo enunciado',
-        ejemplo: 'Tanto dolor se agrupa en mi costado/ que por doler me duele hasta el aliento'
+        ejemplo: 'Tanto dolor se agrupa en mi costado/ que por doler me duele hasta el aliento',
+        trimestre: '1',
     },
     {
         titulo: 'Personificación',
         descripcion: 'Atribución de cualidades humanas a seres animados o inanimados.',
-        ejemplo: 'Ríe la luminosa hora de primavera'
+        ejemplo: 'Ríe la luminosa hora de primavera',
+        trimestre: '1',
+    },
+    {
+        titulo: 'Encabalgamiento',
+        descripcion: 'División en dos versos de una unidad sintáctica o semántica, de forma que no hay sentido hasta que se leen los dos versos.',
+        ejemplo: 'Avanza por caminos que no llevan \n a ningún sitio.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Enumeración',
+        descripcion: 'Ofrecer una lista de elementos que pertenecen a una misma categoría gramatical.',
+        ejemplo: 'Y en el corredor se agrupan, bajo la luz de una candeleja, *pipas, chalinas y melenas del medernismo*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Epanadiplosis',
+        descripcion: 'Repetición de una misma palabra al principio y al final del verso..',
+        ejemplo: '*palabras* de amor, *palabras*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Epífora',
+        descripcion: 'Repetición de una o más palabras al final del verso.',
+        ejemplo: 'No duerme nadie por el cielo. Nadie, *nadie*.\nNo duerme *nadie*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Eufemismo',
+        descripcion: 'Cambiar un referente vulgar por un que resulte menos ofensivo.',
+        ejemplo: '--¿A dónde va usted, Don Latí?\n--A *cambiar el agua de las aceitunas*. (ir a orinar)',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Hipálage',
+        descripcion: 'Transferir una característica de un referente a otro del mismo contexto.',
+        ejemplo: 'A las *desalentadas* amapolas\ndaré tu corazón por alimento',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Ironía',
+        descripcion: 'Expresar alguna cosa dando a entender la contraria.',
+        ejemplo: 'Pues en este tiempo estaba en mi prosperidad\ny en la cumbre de toda buena fortuna.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Lítote o atenuación',
+        descripcion: 'Afirmar algo negando lo contrario.',
+        ejemplo: 'Y le mató, triste y pequño,\n*falto de luz*, falto de fe...',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Metonimia',
+        descripcion: 'Designar una cosa con el nombre de otra con la que guarda una relación de contigüidad.',
+        ejemplo: 'Tengase su tesoro\nlos que de un falso *leño* se confían.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Oxímoron',
+        descripcion: 'Es un tipo de antítesis que expresan dos ideas opuestas en un mismo sintagma.',
+        ejemplo: 'En esa religión donde el amor, *ángel terrible*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Paradoja',
+        descripcion: 'Expresión de una idea inconcedible por contradictória.',
+        ejemplo: 'El alma\ntan clara y abierta,\nque yo nunca pude\nentrarme en tu alma.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Paronomasia',
+        descripcion: 'Dos palabras con sonido semejante cuyo significado no tiene nada que ver.',
+        ejemplo: '*vendado* que me has *vendido*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Pleonasmo',
+        descripcion: 'Expresión redundante de una determinada idea.',
+        ejemplo: 'Que quise *subir arriba*\n pero *bajé* tan *abajo*.',
+        trimestre: '3',
+    },
+    {
+        titulo: 'Políptoton',
+        descripcion: 'Repetición de una misma palabra con flexiones diferentes.',
+        ejemplo: 'Tanto *dolor*, que por *doler* me duele hasta el aliento.',
+        trimestre: '3',
     },
 ]
