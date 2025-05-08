@@ -1,5 +1,8 @@
 ---
 import BtnInicio from "../components/BtnInicio.astro";
+import Card from "../components/Card.astro";
+import H2 from "../components/H2.astro";
+import Section from "../components/Section.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -11,7 +14,36 @@ import Layout from "../layouts/Layout.astro";
         </head>
         <section id="contexto" class="text-left text-pretty">
             <h2 class="text-center text-2xl font-light mb-14">¿Qué es la semántica?</h2>
-            <img class="mx-auto px-2 max-h-[500px] rounded-2xl" src="/semantica.jpg" alt="Ilustración de la semantica">
+            <img class="mx-auto px-2 max-h-[500px] rounded-2xl" src="/semantica.jpg" alt="Ilustración de la semántica">
         </section>
+        <H2 titulo="Semántica"/>
+        <Section titulo="Definición y tipos">
+            <p><b>Semántica: </b>Es la ciencia que estudia el significado de las palabras. Hay dos tipos:</p>
+            <ul class="list-disc ml-8 mt-2">
+                <li><b>Síncrona</b>: Analiza los significados en un momento concreto.</li>
+                <li><b>Diacrónica</b>: Analiza cómo cambian los significados a lo largo del tiempo.</li>
+            </ul>
+            <br>
+            <p><b>Campo semántico: </b>Palabras de la misma categoría gramatical y con significado común.</p>
+            <br>
+            <p><b>Campo asociativo: </b>Palabras relacionadas por connotaciones, no por gramática.</p>
+        </Section>
+        <H2 titulo="Tipos y relaciones semánticas"/>
+        <Section titulo="Tipos de significado">
+            <ul class="list-disc">
+                <li><b>Denotativo</b>: Es objetivo o literal (ej. “perro” = animal doméstico).</li>
+                <li><b>Connotativo</b>: Es subjetivo o figurado (ej. “perro” = persona despreciable).</li>
+            </ul>
+        </Section>
+        <Section titulo="Relaciones semánticas">
+            <div class="flex flex-wrap justify-center gap-8 mt-8">
+                <Card title="Monosemia" info="Una palabra con un solo significado" subtitle="'mesa' (mueble)"/>
+                <Card title="Sinonimia" info="Dos o más palabras con el mismo significado" subtitle="'coche' y 'auto'"/>
+                <Card title="Antonimia" info="Palabras con significados opuestos" subtitle="'bueno' y 'malo'"/>
+                <Card title="Homonimia" info="Palabras que se escriben igual en forma o sonido pero con significados diferentes" subtitle="'banco' (entidad financiera) y 'banco' (mueble)"/>
+                <Card title="Paronimia" info="Palabras que tienen un significado similar" subtitle="'feliz' y 'contento'"/>
+                <Card title="Hiponimia e hiperonimia" info="Palabras con una relación de inclusión de unas dentro de otras" subtitle="'perro' es hipónimo de 'animal'"/>
+            </div>
+        </Section>
     </main>
 </Layout>
