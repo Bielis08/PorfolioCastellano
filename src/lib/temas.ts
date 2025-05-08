@@ -9,7 +9,7 @@ export const temas = [
     },
     {
         titulo: 'Literatura (Edad Media)',
-        descripcion: 'La literatura de la Edad Media: Lírica Popular, El Mester de Juglaría y Mester de Clerecía.',
+        descripcion: 'La literatura de la Edad Media: Lírica Popular, el Mester de Juglaría y el Mester de Clerecía.',
         icono: '/icons/castillo.svg',
         iconColor: '#FACC15',
         link: '/literatura_edad_media',
@@ -17,7 +17,7 @@ export const temas = [
     },
     {
         titulo: 'Jorge Manrique',
-        descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la Muerte de su Padre".',
+        descripcion: 'Jorge Manrique, conocido por su obra "Coplas por la muerte de su padre".',
         icono: '/icons/author.svg',
         iconColor: '#4ADE80',
         link: '/jorge_manrique',
@@ -25,7 +25,7 @@ export const temas = [
     },
     {
         titulo: 'Argumentos y Adjuntos',
-        descripcion: 'Gramatica de la segunda unidad, los complementos del verbo.',
+        descripcion: 'Gramática de la segunda unidad, los complementos del verbo.',
         icono: '/icons/gramatica2.svg',
         iconColor: '#EC4899',
         link: '/argumentos_adjuntos',
@@ -33,11 +33,11 @@ export const temas = [
     },
     {
         titulo: 'Lecturas',
-        descripcion: 'Las dos lecturas del curso: "La Celestina" y "El Lazarillo de Tormes".',
+        descripcion: 'Las dos lecturas del curso: "La Celestina", "El Lazarillo de Tormes" y "Rimas y leyendas de Bécquer".',
         icono: '/icons/libro.svg',
         iconColor: '#4A8E80',
         link: '/lecturas_trimestrales',
-        tema: '2 y 4'
+        tema: '2, 4, 6'
     },
     {
         titulo: 'Literatura Renacimiento',
@@ -81,7 +81,7 @@ export const temas = [
     },
     {
         titulo: 'Valores del se',
-        descripcion: 'Los valores del se: Variante del le, Relfexivo, Recíproco, Impersonal, Dativo...',
+        descripcion: 'Los valores del "se": Variante del "le", reflexivo, recíproco, impersonal, dativo...',
         icono: '/icons/tipos_del_se.svg',
         iconColor: '#F472B6',
         link: '/tipos_del_se',
@@ -95,4 +95,4 @@ export const temas = [
         link: '/literatura_romanticismo',
         tema: '6'
     },    
-]
+];
