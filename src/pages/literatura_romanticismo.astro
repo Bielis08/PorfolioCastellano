@@ -1,0 +1,39 @@
+---
+import BtnInicio from "../components/BtnInicio.astro";
+import ContextoRenacimiento from "../sections/ContextoRenacimiento.astro";
+import FrayLuisdeLeon from "../sections/FrayLuisdeLeon.astro";
+import GarcilasodelaVega from "../sections/GarcilasodelaVega.astro";
+import SanJuandelaCruz from "../sections/SanJuandelaCruz.astro";
+import Layout from "../layouts/Layout.astro";
+---
+
+<Layout title="Literatura Romanticismo - Apuntes de Castellano">
+    <main class="max-w-[1400px] mx-auto px-6 mb-14 mt-28 md:mt-36 text-center">
+        <BtnInicio/>
+        <head>
+            <h1 class="text-4xl font-semibold mt-20 mb-2">Literatura Romanticismo</h1>
+            <h2 class="text-center text-2xl font-light mb-14">Contexto histórico y principales autores</h2>
+        </head>
+        <img class="my-10 mx-auto rounded-2xl h-[400px]" src="Literatura_romanticismo.jpg" alt="Imagen de la literatura del Romanticismo">
+        
+        <hr class="border-2 border-emerald-300 rounded-lg my-10">
+        <section>
+            <h2 class="text-3xl font-semibold text-left ml-2 lg:ml-20 mt-10 md:mt-16 underline">Relfexión de las dificultades y ejercicios</h2>
+            <section class="text-justify">
+                <h3 class="text-2xl font-semibold ml-2 lg:ml-28 mt-10 md:mt-16 mb-6">Reflexión</h3>
+                <p class="mx-8 sm:mx-12 lg:mx-40 max-w-[800px]">Este apartado me ha parecido bastante fácil de entender, sobre todo las 3 vías de San Juan de la Cruz. El renacimiento me resulta más fácil de estudiar que la gramática.</p>
+            </section>
+            <section class="text-justify">
+                <h3 class="text-2xl font-semibold ml-2 lg:ml-28 mt-10 md:mt-16 mb-6">Ejercicios</h3>
+                <div class="mb-10 grid grid-cols-1 lg:grid-cols-4 gap-4">
+                    <div class="col-span-2">
+                        <p class="ml-8 sm:ml-12 lg:ml-40 max-w-[800px]">El ejercicio que más difícil me pareció fue el de la ficha que nos dio Inés impresa. Me pareció díficil porque en ese momento no estaba preparado, ya que era sin apuntes. Igualmente no es el más difícil que he hecho.</p>
+                        <p class="ml-8 mt-4 sm:ml-12 lg:ml-40 max-w-[800px]">El ejercicio más fácil en mi opinión fue el del PDF sobre San Juan de la Cruz, concretamente el 19.</p>
+                    </div>
+                    <img class="col-span-1 h-96 rounded-2xl" src="Ficha del renacimiento.webp" alt="Ficha del renacimiento">
+                    <img class="col-span-1 h-96 rounded-2xl" src="Ejercico-San-Juan-de-la-Cruz.webp" alt="Ficha de ejercicios de San Juan de la Cruz">
+                </div>
+            </section>
+        </section>
+    </main>
+</Layout>

@@ -45,7 +45,7 @@ export const temas = [
         icono: '/icons/renacimiento.svg',
         iconColor: '#D95700',
         link: '/renacimiento',
-        tema: '3 y 6'
+        tema: '3'
     },
     {
         titulo: 'Perífrasis Verbales y Locuciones',
@@ -87,4 +87,12 @@ export const temas = [
         link: '/tipos_del_se',
         tema: '6'
     },
+    {
+        titulo: 'Literatura Romanticismo',
+        descripcion: 'El Romanticismo: José de Espronceda, Gustavo Adolfo Bécquer y Rosalía de Castro.',
+        icono: '/icons/renacimiento.svg',
+        iconColor: '#0EA5E9',
+        link: '/literatura_romanticismo',
+        tema: '6'
+    },    
 ]
