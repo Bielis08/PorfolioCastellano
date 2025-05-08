@@ -1,5 +1,8 @@
 ---
 import BtnInicio from "../components/BtnInicio.astro";
+import H2 from "../components/H2.astro";
+import Section from "../components/Section.astro";
+import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -12,6 +15,17 @@ import Layout from "../layouts/Layout.astro";
         <section id="contexto" class="text-left text-pretty">
             <h2 class="text-center text-2xl font-light mb-14">Los valores del se</h2>
             <img class="mx-auto px-2 max-h-[500px] rounded-2xl" src="/tipos_del_se.jpg" alt="Tipos del se">
+        </section>
+        <H2 titulo="Valores del se" />
+        <section class="flex flex-wrap gap-8 justify-center mt-8">
+            <Card title="Variante del le" info="Función Sintáctica: CI" info2="Cuando el le coincide con un CD pronominal (lo, la, los, las)"/>
+            <Card title="Reflexivo" info="Función Sintáctica: CD o CI" info2="El sujeto hace y recibe la acción. Se puede añadir 'a sí mismo'"/>
+            <Card title="Recíproco" info="Función Sintáctica: CD o CI" info2="Hay varios sujetos que intercambian la acción. Se puede añadir 'uno al otro'."/>
+            <Card title="Dativo" info="Función Sintáctica: Ninguna" info2="El pronombre se puede omitirse sin cambiar el sentido lógico."/>
+            <Card title="Verbo pronominal" info="Función Sintáctica: Ninguna" info2="El pronombre forma parte del verbo. El verbo se vuelve intransitivo."/>
+            <Card title="Pasiva refleja" info="Función Sintáctica: Ninguna" info2="Se usa se + verbo en 3ª persona para expresar una pasiva."/>
+            <Card title="Impersonal" info="Función Sintáctica: Ninguna" info2="No hay sujeto. Se usa se + verbo en 3ª persona del singular."/>
+            <Card title="Voz media" info="Función Sintáctica: Ninguna" info2="El sujeto no es agente ni paciente. La acción ocurre 'sola'."/>
         </section>
     </main>
 </Layout>
