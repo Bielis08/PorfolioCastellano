@@ -1,9 +1,8 @@
 ---
 import BtnInicio from "../components/BtnInicio.astro";
-import ContextoRenacimiento from "../sections/ContextoRenacimiento.astro";
-import FrayLuisdeLeon from "../sections/FrayLuisdeLeon.astro";
-import GarcilasodelaVega from "../sections/GarcilasodelaVega.astro";
-import SanJuandelaCruz from "../sections/SanJuandelaCruz.astro";
+import H2 from "../components/H2.astro";
+import Section from "../components/Section.astro";
+import Card from "../components/Card.astro";
 import Layout from "../layouts/Layout.astro";
 ---
 
@@ -14,7 +13,133 @@ import Layout from "../layouts/Layout.astro";
             <h1 class="text-4xl font-semibold mt-20 mb-2">Literatura Romanticismo</h1>
             <h2 class="text-center text-2xl font-light mb-14">Contexto histórico y principales autores</h2>
         </head>
-        <img class="my-10 mx-auto rounded-2xl h-[400px]" src="Literatura Romanticismo.webp" alt="Imagen de la literatura del Romanticismo">
+        <img class="my-10 mx-auto rounded-2xl h-[400px]" src="Romanticismo.jpg" alt="Imagen de la literatura del Romanticismo">
+        <H2 titulo="Romanticismo" />
+        <Section titulo="¿Qué es el Romanticismo?">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <p>El Romanticismo fue un movimiento cultural del siglo XIX en contra del racionalismo de la Ilustración. Valoraba los sentimientos, la imaginación y el individualismo. Destacó por su subjetividad, el gusto por lo exótico y el uso de la naturaleza para reflejar su estado de ánimo. Con la exaltación del individualismo se empezó a ver en lo poemas este concepto, el individuo frente a todo el mundo. Es una època que incita al suicidio. Fue el siglo de Prometeo. Usaban el presente y el futuro para dar musicalidad a sus obras.</p>
+                <img class="rounded h-64" src="Literatura Romanticismo.webp" alt="Imagen que demuestra el individualismo">
+            </div>
+        </Section>
+        <Section titulo="Características del Romanticismo">
+            <div class="flex flex-wrap justify-center gap-4 my-10">
+                <Card title="Nacionalismo" info="Vuelta a las raíces nacionales: Edad Media, leyendas, romances y lenguas vernáculas." size="300px" center="text-center" />
+                <Card title="Evasión" info="Huida de la realidad hacia lugares exóticos, épocas pasadas, el sueño o la muerte." size="300px" center="text-center" />
+                <Card title="Exaltación del yo" info="Expresión intensa de emociones y sentimientos personales, como la melancolía o el desengaño." size="300px" center="text-center" />
+                <Card title="Rebeldía" info="Admiración por personajes marginales y rechazo de las normas sociales y morales." size="300px" center="text-center" />
+                <Card title="Libertad" info="Rechazo de reglas estéticas clásicas; defensa de la originalidad y lo grotesco." size="300px" center="text-center" />
+                <Card title="Angustia existencial" info="Malestar vital ('mal del siglo'), con presencia de la muerte, ruinas y lo sobrenatural." size="300px" center="text-center" />
+                <Card title="Contradicciones" info="Religiosidad vs. gusto por lo macabro; tradición vs. revolución." size="300px" center="text-center" />
+            </div>
+        </Section>
+        <Section titulo="Tipos de Romanticismo">
+            <p>Hubo estos dos tipos de romanticismo:</p>
+            <div class="flex flex-wrap justify-center gap-4 my-10">
+                <Card title="Liberal" info="Era un romanticismo más liberal." subtitle="Autores principales: Lord Byron, Victor Hugo (Escritor del Jorobado de Notre Dame), Larra y Espornceda." />
+                <Card title="Consevador" info="Era un romanticismo que no se metia en políticas." subtitle="Autores principales: Chateaubriand, Walter Scott y Zorrilla." />
+            </div>
+        </Section>
+        <H2 titulo="Gustavo Adolfo Bécquer" />
+        <Section titulo="Vida y contexto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <p>Gustavo Adolfo Bécquer fue un poeta y narrador sevillano, considerado uno de los principales representantes del Romanticismo tardío en España. Tuvo una vida marcada por la enfermedad, las dificultades económicas y los desengaños amorosos, elementos que influyen profundamente en su obra literaria, íntima y melancólica.</p>
+                <img class="rounded h-64" src="Gustavo Adolfo Becquer.jpg" alt="Ilustración de Gustavo Adolfo Bécquer" />
+            </div>
+        </Section>
+        <Section titulo="Características">
+            <ul class="list-disc">
+                <li>Romanticismo intimista y subjetivo</li>
+                <li>Tono melancólico, delicado y nostálgico</li>
+                <li>Temas como el amor idealizado, el dolor, la muerte y el misterio</li>
+                <li>Lenguaje sencillo, musical y simbólico</li>
+            </ul>
+        </Section>
+        <Section titulo="Sus obras"> 
+            <section class="flex flex-wrap gap-2 justify-around mt-8">
+                <Card title="Rimas" info="Colección de poemas breves que exploran el amor, la soledad, la inspiración poética y el desengaño." info2="Obra clave del Romanticismo intimista en lengua española."/>
+                <Card title="Leyendas" info="Narraciones breves con elementos sobrenaturales, ambientadas en épocas pasadas, con estilo lírico y misterioso."/>
+            </section>
+        </Section>
+        <H2 titulo="José de Espronceda" />
+        <Section titulo="Vida y contexto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <p>José de Espronceda fue uno de los principales poetas del Romanticismo español. Participó activamente en la política liberal, lo que le llevó al exilio en varias ocasiones. Su vida estuvo marcada por la rebeldía, la pasión y la búsqueda de libertad, valores que impregnan toda su obra.</p>
+                <img class="rounded h-64" src="Jose de Espronceda.jpg" alt="Ilustración de José de Espronceda" />
+            </div>
+        </Section>
+        <Section titulo="Características">
+            <ul class="list-disc">
+                <li>Figura destacada del Romanticismo liberal y revolucionario</li>
+                <li>Exalta la libertad, la rebeldía y los sentimientos extremos</li>
+                <li>Utiliza personajes marginales como símbolos de libertad (pirata, mendigo...)</li>
+                <li>Lenguaje emotivo, apasionado y musical</li>
+            </ul>
+        </Section>
+        <Section titulo="Sus obras"> 
+            <section class="flex flex-wrap gap-2 justify-around mt-8">
+                <Card title="El estudiante de Salamanca" info="Relato en verso que mezcla lo romántico con lo macabro, protagonizado por un donjuán trágico y fantasmal."/>
+                <Card title="Canción del pirata" info="Símbolo de libertad absoluta frente a la sociedad opresiva. Uno de los poemas más conocidos del Romanticismo."/>
+            </section>
+        </Section>
+
+        <H2 titulo="Rosalía de Castro" />
+        <Section titulo="Vida y contexto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <p>Rosalía de Castro fue una poeta gallega que escribió tanto en gallego como en castellano. Vivió en una época de marginación cultural para Galicia y su obra refleja la melancolía, la injusticia social y el dolor de una tierra olvidada. Fue una figura clave del Rexurdimento gallego.</p>
+                <img class="rounded h-64" src="Rosalia de Castro.jpg" alt="Ilustración de Rosalía de Castro" />
+            </div>
+        </Section>
+        <Section titulo="Características">
+            <ul class="list-disc">
+                <li>Uso del gallego como reivindicación cultural</li>
+                <li>Tono melancólico, intimista y nostálgico</li>
+                <li>Crítica a la situación social y política de Galicia</li>
+                <li>Temas como la soledad, la emigración y el dolor existencial</li>
+            </ul>
+        </Section>
+        <Section titulo="Sus obras"> 
+            <section class="flex flex-wrap gap-2 justify-around mt-8">
+                <Card title="Cantares gallegos" info="Obra clave del Rexurdimento; reivindica la identidad gallega a través de la poesía popular y tradicional."/>
+                <Card title="En las orillas del Sar" info="Poesía intimista escrita en castellano, marcada por la tristeza, la duda existencial y el desencanto."/>
+            </section>
+        </Section>
+
+        <H2 titulo="José Zorrilla" />
+        <Section titulo="Vida y contexto">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12">
+                <p>José Zorrilla fue un dramaturgo y poeta muy popular en su época. Aunque sus obras fueron acogidas con entusiasmo, vivió con dificultades económicas. Su literatura se caracteriza por el nacionalismo romántico y la idealización de la España tradicional y religiosa, especialmente de la Edad Media.</p>
+                <img class="rounded h-64" src="Jose Zorrilla.jpg" alt="Ilustración de José Zorrilla" />
+            </div>
+        </Section>
+        <Section titulo="Características">
+            <ul class="list-disc">
+                <li>Autor teatral por excelencia del Romanticismo español</li>
+                <li>Inspiración en la tradición y la religión católica</li>
+                <li>Idealización de la Edad Media como época heroica y noble</li>
+                <li>Estilo solemne, emotivo y lleno de dramatismo</li>
+            </ul>
+        </Section>
+        <Section titulo="Sus obras"> 
+            <section class="flex flex-wrap gap-2 justify-around mt-8">
+                <Card title="Don Juan Tenorio" info="Versión romántica del mito de Don Juan, mezcla de amor, muerte y redención. Su obra más famosa."/>
+                <Card title="Traidor, inconfeso y mártir" info="Drama histórico que refleja la lucha del individuo contra el destino y las pasiones humanas."/>
+            </section>
+        </Section>
+        <H2 titulo="Otros autores destacados" />
+        <Section titulo="Goette">
+            <ul class="list-disc">
+                <li>Era un escritor alemán.</li>
+                <li>Escribio el libro más famoso del romanticismo y el que dió inicio a esa epoca. 'Las penas del joven Werther'.</li>
+                <li>Fue poeta, novelista, dramaturgo y científico.</li>
+            </ul>
+        </Section>
+        <Section titulo="Rousseau">
+            <ul class="list-disc">
+                <li>Era un escritor suizo, principalmente de filosofía.</li>
+                <li>Escribio bastantes ensayos y libros relacionados con el ámbito de la filosofía.</li>
+                <li>Fue  escritor, pedagogo, filósofo, músico, botánico y naturalista.</li>
+            </ul>
+        </Section>
         <hr class="border-2 border-emerald-300 rounded-lg my-10">
         <section>
             <h2 class="text-3xl font-semibold text-left ml-2 lg:ml-20 mt-10 md:mt-16 underline">Reflexión de las dificultades y ejercicios</h2>
