@@ -33,7 +33,7 @@ export const temas = [
     },
     {
         titulo: 'Lecturas',
-        descripcion: 'Las dos lecturas del curso: "La Celestina", "El Lazarillo de Tormes" y "Rimas y leyendas de Bécquer".',
+        descripcion: 'Las dos lecturas del curso: "La Celestina" y "El Lazarillo de Tormes".',
         icono: '/icons/libro.svg',
         iconColor: '#4A8E80',
         link: '/lecturas_trimestrales',
